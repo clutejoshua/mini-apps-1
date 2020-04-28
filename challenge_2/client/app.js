@@ -35,4 +35,3 @@ const app = {
 };
 
 $(document).ready(app.init);
-
