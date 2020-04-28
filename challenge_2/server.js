@@ -14,9 +14,4 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(cors());
 app.use(morgan('dev'));
 
-app.post('/server', (req, res) => {
-  console.log(req.body);
-  res.status(200).send(req);
-});
-
 app.listen(port, () => console.log(`app listening at http://local:${port}`));
