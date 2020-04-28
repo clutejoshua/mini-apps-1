@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.wrapper {
+  background: grey;
+  padding: 20px;
+  width: 85%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 6px inset black;
+}
+
+h2 {
+  text-align: center;
+}
+
+textarea {
+  height: 200px !important;
+  box-shadow: 0 0 5px black;
+}
+
+.btn-block {
+  margin: 20px auto;
+  width: 50%;
+  text-align: center;
+  box-shadow: 0 0 5px black;
+}
