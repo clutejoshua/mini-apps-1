@@ -1,5 +1,7 @@
 const controller = require('./controller.js');
 
+const router = express.Router();
+
 const router = require('express').Router();
 
 router
